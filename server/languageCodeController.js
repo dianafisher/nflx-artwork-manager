@@ -1,5 +1,4 @@
 const fs = require('fs');
-const JSONStream = require('JSONStream');
 
 const langDesignators = JSON.parse(fs.readFileSync(__dirname + '/iso-639-1.json', 'utf-8'));
 const regionDesignators = JSON.parse(fs.readFileSync(__dirname + '/iso-3166-1.json', 'utf-8'));
