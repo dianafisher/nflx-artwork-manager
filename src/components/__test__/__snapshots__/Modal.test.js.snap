@@ -1,0 +1,468 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal renders nothing when closed 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": null,
+  "nodes": Array [
+    null,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <Modal
+        item={
+                Object {
+                        "fullSizeImageUrl": "http://via.placeholder.com/350x150",
+                        "imageType": "sdp",
+                        "language": "English",
+                        "languageCode": "en",
+                        "movieId": 1,
+                        "movieName": "Test Movie",
+                      }
+        }
+        onClose={[Function]}
+/>,
+      "_debugID": 1,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": Modal {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "props": Object {
+          "item": Object {
+            "fullSizeImageUrl": "http://via.placeholder.com/350x150",
+            "imageType": "sdp",
+            "language": "English",
+            "languageCode": "en",
+            "movieId": 1,
+            "movieName": "Test Movie",
+          },
+          "onClose": [Function],
+        },
+        "refs": Object {},
+        "state": null,
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": null,
+        "_debugID": 2,
+        "_renderedOutput": null,
+      },
+      "_renderedNodeType": 2,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Modal
+    item={
+        Object {
+            "fullSizeImageUrl": "http://via.placeholder.com/350x150",
+            "imageType": "sdp",
+            "language": "English",
+            "languageCode": "en",
+            "movieId": 1,
+            "movieName": "Test Movie",
+          }
+    }
+    onClose={[Function]}
+/>,
+}
+`;
+
+exports[`Modal renders when open 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div
+    className="backdrop"
+>
+    <div
+        className="modal"
+    >
+        <div
+            className="title"
+        >
+            Test Movie
+        </div>
+        <img
+            alt="full size"
+            className="fullsize-image"
+            src="http://via.placeholder.com/350x150"
+        />
+        <div
+            className="detail"
+        >
+            <label>
+                Movie ID:
+            </label>
+            <span>
+                1
+            </span>
+        </div>
+        <div
+            className="detail"
+        >
+            <label>
+                Image Type:
+            </label>
+            <span>
+                sdp
+            </span>
+        </div>
+        <div
+            className="detail"
+        >
+            <label>
+                Language:
+            </label>
+            <span>
+                English
+            </span>
+        </div>
+        <div
+            className="detail"
+        >
+            <label>
+                Language Code:
+            </label>
+            <span>
+                en
+            </span>
+        </div>
+        <div
+            className="footer"
+        >
+            <button
+                className="close-button"
+                onClick={[Function]}
+            >
+                Close
+            </button>
+        </div>
+    </div>
+</div>,
+  "nodes": Array [
+    <div
+      className="backdrop"
+>
+      <div
+            className="modal"
+      >
+            <div
+                  className="title"
+            >
+                  Test Movie
+            </div>
+            <img
+                  alt="full size"
+                  className="fullsize-image"
+                  src="http://via.placeholder.com/350x150"
+            />
+            <div
+                  className="detail"
+            >
+                  <label>
+                        Movie ID:
+                  </label>
+                  <span>
+                        1
+                  </span>
+            </div>
+            <div
+                  className="detail"
+            >
+                  <label>
+                        Image Type:
+                  </label>
+                  <span>
+                        sdp
+                  </span>
+            </div>
+            <div
+                  className="detail"
+            >
+                  <label>
+                        Language:
+                  </label>
+                  <span>
+                        English
+                  </span>
+            </div>
+            <div
+                  className="detail"
+            >
+                  <label>
+                        Language Code:
+                  </label>
+                  <span>
+                        en
+                  </span>
+            </div>
+            <div
+                  className="footer"
+            >
+                  <button
+                        className="close-button"
+                        onClick={[Function]}
+                  >
+                        Close
+                  </button>
+            </div>
+      </div>
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <Modal
+        item={
+                Object {
+                        "fullSizeImageUrl": "http://via.placeholder.com/350x150",
+                        "imageType": "sdp",
+                        "language": "English",
+                        "languageCode": "en",
+                        "movieId": 1,
+                        "movieName": "Test Movie",
+                      }
+        }
+        onClose={[Function]}
+        show={true}
+/>,
+      "_debugID": 3,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": Modal {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "props": Object {
+          "item": Object {
+            "fullSizeImageUrl": "http://via.placeholder.com/350x150",
+            "imageType": "sdp",
+            "language": "English",
+            "languageCode": "en",
+            "movieId": 1,
+            "movieName": "Test Movie",
+          },
+          "onClose": [Function],
+          "show": true,
+        },
+        "refs": Object {},
+        "state": null,
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 2,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <div
+          className="backdrop"
+>
+          <div
+                    className="modal"
+          >
+                    <div
+                              className="title"
+                    >
+                              Test Movie
+                    </div>
+                    <img
+                              alt="full size"
+                              className="fullsize-image"
+                              src="http://via.placeholder.com/350x150"
+                    />
+                    <div
+                              className="detail"
+                    >
+                              <label>
+                                        Movie ID:
+                              </label>
+                              <span>
+                                        1
+                              </span>
+                    </div>
+                    <div
+                              className="detail"
+                    >
+                              <label>
+                                        Image Type:
+                              </label>
+                              <span>
+                                        sdp
+                              </span>
+                    </div>
+                    <div
+                              className="detail"
+                    >
+                              <label>
+                                        Language:
+                              </label>
+                              <span>
+                                        English
+                              </span>
+                    </div>
+                    <div
+                              className="detail"
+                    >
+                              <label>
+                                        Language Code:
+                              </label>
+                              <span>
+                                        en
+                              </span>
+                    </div>
+                    <div
+                              className="footer"
+                    >
+                              <button
+                                        className="close-button"
+                                        onClick={[Function]}
+                              >
+                                        Close
+                              </button>
+                    </div>
+          </div>
+</div>,
+        "_debugID": 4,
+        "_renderedOutput": <div
+          className="backdrop"
+>
+          <div
+                    className="modal"
+          >
+                    <div
+                              className="title"
+                    >
+                              Test Movie
+                    </div>
+                    <img
+                              alt="full size"
+                              className="fullsize-image"
+                              src="http://via.placeholder.com/350x150"
+                    />
+                    <div
+                              className="detail"
+                    >
+                              <label>
+                                        Movie ID:
+                              </label>
+                              <span>
+                                        1
+                              </span>
+                    </div>
+                    <div
+                              className="detail"
+                    >
+                              <label>
+                                        Image Type:
+                              </label>
+                              <span>
+                                        sdp
+                              </span>
+                    </div>
+                    <div
+                              className="detail"
+                    >
+                              <label>
+                                        Language:
+                              </label>
+                              <span>
+                                        English
+                              </span>
+                    </div>
+                    <div
+                              className="detail"
+                    >
+                              <label>
+                                        Language Code:
+                              </label>
+                              <span>
+                                        en
+                              </span>
+                    </div>
+                    <div
+                              className="footer"
+                    >
+                              <button
+                                        className="close-button"
+                                        onClick={[Function]}
+                              >
+                                        Close
+                              </button>
+                    </div>
+          </div>
+</div>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Modal
+    item={
+        Object {
+            "fullSizeImageUrl": "http://via.placeholder.com/350x150",
+            "imageType": "sdp",
+            "language": "English",
+            "languageCode": "en",
+            "movieId": 1,
+            "movieName": "Test Movie",
+          }
+    }
+    onClose={[Function]}
+    show={true}
+/>,
+}
+`;

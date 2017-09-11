@@ -1,0 +1,27 @@
+{
+  "name": "nflx-artwork-manager",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "JSONStream": "^1.3.1",
+    "express": "^4.15.4",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-scripts": "1.0.13",
+    "winston": "^2.3.1"
+  },
+  "scripts": {
+    "start-ui": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "start": "nodemon server/index.js",
+    "test-server": "jest server"
+  },
+  "proxy": "http://localhost:9000",
+  "devDependencies": {
+    "enzyme": "^2.9.1",
+    "react-test-renderer": "^15.6.1"
+  }
+}

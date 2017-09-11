@@ -1,0 +1,354 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Gallery renders 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div>
+    <ul
+        className="movies"
+    >
+        <Movie
+            entries={
+                Array [
+                    Object {
+                      "fullSizeImageUrl": "http://art.nflximg.net/4696b/7ff1f9558cb6f8116093c1f96d6f308bb0e4696b.jpg",
+                      "imageType": "sdp",
+                      "languageCode": "zh-Hant",
+                      "movieId": 70305883,
+                      "movieName": "Marco Polo",
+                      "thumbnailUrl": "http://art.nflximg.net/86e1f/8cbce4164b1b825620987fd60e279456a6c86e1f.jpg",
+                    },
+                    Object {
+                      "fullSizeImageUrl": "http://art.nflximg.net/a828d/02339453136e68aeeb1251ff66e7d16d3b2a828d.jpg",
+                      "imageType": "sdp",
+                      "languageCode": "it",
+                      "movieId": 70305883,
+                      "movieName": "Marco Polo",
+                      "thumbnailUrl": "http://art.nflximg.net/5ce1a/af5a8ec811c8c2da90a7967e1616fbb3c6a5ce1a.jpg",
+                    },
+                  ]
+            }
+            groupedBy="movieId"
+            onThumbnailClicked={[Function]}
+        />
+    </ul>
+</div>,
+  "nodes": Array [
+    <div>
+      <ul
+            className="movies"
+      >
+            <Movie
+                  entries={
+                        Array [
+                              Object {
+                                "fullSizeImageUrl": "http://art.nflximg.net/4696b/7ff1f9558cb6f8116093c1f96d6f308bb0e4696b.jpg",
+                                "imageType": "sdp",
+                                "languageCode": "zh-Hant",
+                                "movieId": 70305883,
+                                "movieName": "Marco Polo",
+                                "thumbnailUrl": "http://art.nflximg.net/86e1f/8cbce4164b1b825620987fd60e279456a6c86e1f.jpg",
+                              },
+                              Object {
+                                "fullSizeImageUrl": "http://art.nflximg.net/a828d/02339453136e68aeeb1251ff66e7d16d3b2a828d.jpg",
+                                "imageType": "sdp",
+                                "languageCode": "it",
+                                "movieId": 70305883,
+                                "movieName": "Marco Polo",
+                                "thumbnailUrl": "http://art.nflximg.net/5ce1a/af5a8ec811c8c2da90a7967e1616fbb3c6a5ce1a.jpg",
+                              },
+                            ]
+                  }
+                  groupedBy="movieId"
+                  onThumbnailClicked={[Function]}
+            />
+      </ul>
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 2,
+      "_context": Object {},
+      "_currentElement": <Gallery
+        groupedBy="movieId"
+        groups={
+                Array [
+                        Array [
+                          Object {
+                            "fullSizeImageUrl": "http://art.nflximg.net/4696b/7ff1f9558cb6f8116093c1f96d6f308bb0e4696b.jpg",
+                            "imageType": "sdp",
+                            "languageCode": "zh-Hant",
+                            "movieId": 70305883,
+                            "movieName": "Marco Polo",
+                            "thumbnailUrl": "http://art.nflximg.net/86e1f/8cbce4164b1b825620987fd60e279456a6c86e1f.jpg",
+                          },
+                          Object {
+                            "fullSizeImageUrl": "http://art.nflximg.net/a828d/02339453136e68aeeb1251ff66e7d16d3b2a828d.jpg",
+                            "imageType": "sdp",
+                            "languageCode": "it",
+                            "movieId": 70305883,
+                            "movieName": "Marco Polo",
+                            "thumbnailUrl": "http://art.nflximg.net/5ce1a/af5a8ec811c8c2da90a7967e1616fbb3c6a5ce1a.jpg",
+                          },
+                        ],
+                      ]
+        }
+        onThumbnailClicked={[Function]}
+/>,
+      "_debugID": 1,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": StatelessComponent {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "props": Object {
+          "groupedBy": "movieId",
+          "groups": Array [
+            Array [
+              Object {
+                "fullSizeImageUrl": "http://art.nflximg.net/4696b/7ff1f9558cb6f8116093c1f96d6f308bb0e4696b.jpg",
+                "imageType": "sdp",
+                "languageCode": "zh-Hant",
+                "movieId": 70305883,
+                "movieName": "Marco Polo",
+                "thumbnailUrl": "http://art.nflximg.net/86e1f/8cbce4164b1b825620987fd60e279456a6c86e1f.jpg",
+              },
+              Object {
+                "fullSizeImageUrl": "http://art.nflximg.net/a828d/02339453136e68aeeb1251ff66e7d16d3b2a828d.jpg",
+                "imageType": "sdp",
+                "languageCode": "it",
+                "movieId": 70305883,
+                "movieName": "Marco Polo",
+                "thumbnailUrl": "http://art.nflximg.net/5ce1a/af5a8ec811c8c2da90a7967e1616fbb3c6a5ce1a.jpg",
+              },
+            ],
+          ],
+          "onThumbnailClicked": [Function],
+        },
+        "refs": Object {},
+        "state": null,
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <div>
+          <ul
+                    className="movies"
+          >
+                    <Movie
+                              entries={
+                                        Array [
+                                                  Object {
+                                                    "fullSizeImageUrl": "http://art.nflximg.net/4696b/7ff1f9558cb6f8116093c1f96d6f308bb0e4696b.jpg",
+                                                    "imageType": "sdp",
+                                                    "languageCode": "zh-Hant",
+                                                    "movieId": 70305883,
+                                                    "movieName": "Marco Polo",
+                                                    "thumbnailUrl": "http://art.nflximg.net/86e1f/8cbce4164b1b825620987fd60e279456a6c86e1f.jpg",
+                                                  },
+                                                  Object {
+                                                    "fullSizeImageUrl": "http://art.nflximg.net/a828d/02339453136e68aeeb1251ff66e7d16d3b2a828d.jpg",
+                                                    "imageType": "sdp",
+                                                    "languageCode": "it",
+                                                    "movieId": 70305883,
+                                                    "movieName": "Marco Polo",
+                                                    "thumbnailUrl": "http://art.nflximg.net/5ce1a/af5a8ec811c8c2da90a7967e1616fbb3c6a5ce1a.jpg",
+                                                  },
+                                                ]
+                              }
+                              groupedBy="movieId"
+                              onThumbnailClicked={[Function]}
+                    />
+          </ul>
+</div>,
+        "_debugID": 2,
+        "_renderedOutput": <div>
+          <ul
+                    className="movies"
+          >
+                    <Movie
+                              entries={
+                                        Array [
+                                                  Object {
+                                                    "fullSizeImageUrl": "http://art.nflximg.net/4696b/7ff1f9558cb6f8116093c1f96d6f308bb0e4696b.jpg",
+                                                    "imageType": "sdp",
+                                                    "languageCode": "zh-Hant",
+                                                    "movieId": 70305883,
+                                                    "movieName": "Marco Polo",
+                                                    "thumbnailUrl": "http://art.nflximg.net/86e1f/8cbce4164b1b825620987fd60e279456a6c86e1f.jpg",
+                                                  },
+                                                  Object {
+                                                    "fullSizeImageUrl": "http://art.nflximg.net/a828d/02339453136e68aeeb1251ff66e7d16d3b2a828d.jpg",
+                                                    "imageType": "sdp",
+                                                    "languageCode": "it",
+                                                    "movieId": 70305883,
+                                                    "movieName": "Marco Polo",
+                                                    "thumbnailUrl": "http://art.nflximg.net/5ce1a/af5a8ec811c8c2da90a7967e1616fbb3c6a5ce1a.jpg",
+                                                  },
+                                                ]
+                              }
+                              groupedBy="movieId"
+                              onThumbnailClicked={[Function]}
+                    />
+          </ul>
+</div>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Gallery
+    groupedBy="movieId"
+    groups={
+        Array [
+            Array [
+              Object {
+                "fullSizeImageUrl": "http://art.nflximg.net/4696b/7ff1f9558cb6f8116093c1f96d6f308bb0e4696b.jpg",
+                "imageType": "sdp",
+                "languageCode": "zh-Hant",
+                "movieId": 70305883,
+                "movieName": "Marco Polo",
+                "thumbnailUrl": "http://art.nflximg.net/86e1f/8cbce4164b1b825620987fd60e279456a6c86e1f.jpg",
+              },
+              Object {
+                "fullSizeImageUrl": "http://art.nflximg.net/a828d/02339453136e68aeeb1251ff66e7d16d3b2a828d.jpg",
+                "imageType": "sdp",
+                "languageCode": "it",
+                "movieId": 70305883,
+                "movieName": "Marco Polo",
+                "thumbnailUrl": "http://art.nflximg.net/5ce1a/af5a8ec811c8c2da90a7967e1616fbb3c6a5ce1a.jpg",
+              },
+            ],
+          ]
+    }
+    onThumbnailClicked={[Function]}
+/>,
+}
+`;
+
+exports[`Gallery renders with empty groups 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div>
+    <ul
+        className="movies"
+    >
+        
+    </ul>
+</div>,
+  "nodes": Array [
+    <div>
+      <ul
+            className="movies"
+      >
+            
+      </ul>
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 2,
+      "_context": Object {},
+      "_currentElement": <Gallery
+        groupedBy="movieId"
+        groups={Array []}
+        onThumbnailClicked={[Function]}
+/>,
+      "_debugID": 3,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": StatelessComponent {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "props": Object {
+          "groupedBy": "movieId",
+          "groups": Array [],
+          "onThumbnailClicked": [Function],
+        },
+        "refs": Object {},
+        "state": null,
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 2,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <div>
+          <ul
+                    className="movies"
+          >
+                    
+          </ul>
+</div>,
+        "_debugID": 4,
+        "_renderedOutput": <div>
+          <ul
+                    className="movies"
+          >
+                    
+          </ul>
+</div>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Gallery
+    groupedBy="movieId"
+    groups={Array []}
+    onThumbnailClicked={[Function]}
+/>,
+}
+`;

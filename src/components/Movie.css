@@ -1,0 +1,15 @@
+.small-thumbnails {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.movie {
+  margin-bottom: 20px;
+}
+
+.movie-title {
+  margin-left: 10px;
+  font-size: 30px;
+  text-align: left;
+}
