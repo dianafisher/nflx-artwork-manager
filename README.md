@@ -1,4 +1,4 @@
-# Netflix Artwork Manager (nflx-artwork)
+# Netflix Artwork Manager (nflx-artwork-manager)
 Netflix Artwork Manager is an app to allow users to quickly manage artwork across titles.
 
 * Group movies by movie id or language code.
